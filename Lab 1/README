@@ -1,0 +1,20 @@
+RUN THIS ON A SEPARATE FOLDER, AWAY FROM YOUR IMPORTANT FILES.
+I'M NOT GOOD AT MAKEFILES, SO I ASKED CHATGPT.
+I ASKED FOR A SAFE VERSION OF CLEAN, BUT I CANNOT GUARANTEE ITS 100% SAFE. USE WITH CAUTION.
+
+Requirements: g++ that supports c++17.
+If you don't have it, install it.
+Guide: https://code.visualstudio.com/docs/cpp/config-mingw
+
+Usage:
+Open Terminal (Linux/MacOS) or Powershell (Windows).
+Navigate to the src folder.
+
+To build, run `make clean all`.
+To run, use `make run`. 
+Can chain all of them too (so `make clean all run`).
+
+Ignore the virus warnings, antiviruses does that sometimes.
+I'm not spreading malware, I promise. The code's all there for you to see?
+
+For more details, read makefile.
