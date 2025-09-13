@@ -22,7 +22,7 @@ int main() {
     const int LOOP_COUNT = 10;          // controls how many times the code is run for one input. more means more accurate but takes longer to execute.
     const int CHUNK_SIZE_LIMIT = 1024;  // chunk size to test to
 
-    for (int dataSize = 1000; dataSize < 10000000; dataSize *= 2) {
+    for (int dataSize = 1000; dataSize < 20000000; dataSize *= 2) {
 
         // This generate the data
         vector<CountableInt> dataVector = generateDataVector(dataSize);
